@@ -1,7 +1,11 @@
-/*#navegation_bar{
-
-
-}*/
 body{
     background-image: url("https://images2.alphacoders.com/253/thumb-1920-253372.jpg");
+}
+#navegation_bar{
+    
+
+}
+.topbar{
+    height: 50px;
+    background-color: brown;
 }
