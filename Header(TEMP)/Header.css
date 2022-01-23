@@ -13,21 +13,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-<<<<<<< HEAD
-    background-color: #002C8A; 
-=======
     background-color:   #FFB800 ; 
->>>>>>> 11f0f5f821519692f7a6bc141c22cafd54455006
     justify-content: space-around;
     /*box-shadow: 5px 5px 25px #000000  inset;*/
      
 }
 .ButtonHeader {
     display: flex;
-<<<<<<< HEAD
-    background-color: #002C8A;
-=======
->>>>>>> 11f0f5f821519692f7a6bc141c22cafd54455006
     margin:0 px;
     justify-content: center;
     align-items: center;
@@ -46,7 +38,7 @@
 /* Change the link color to #111 (black) on hover */
 .ButtonHeader a:hover {
     background-color: #002C8A;
-    color: white;
+    color: wit;
 }
 .ButtonHeader img{
     height: 60px;
