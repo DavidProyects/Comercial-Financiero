@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
 .header{
     position: fixed;
-    box-shadow: 10px 5px 5px black;
+    
 }
 .Headerbar {
     display: flex;
@@ -8,30 +13,34 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #002C8A; 
+    background-color:   #FFB800 ; 
     justify-content: space-around;
+    /*box-shadow: 5px 5px 25px #000000  inset;*/
      
 }
 .ButtonHeader {
     display: flex;
     margin:0 px;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .ButtonHeader a {
     display: block;
-    color: white;
+    color: 002C8A;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 28px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 .ButtonHeader a:hover {
-    background-color: #111;
+    background-color: #002C8A;
+    color: white;
 }
 .ButtonHeader img{
-    height: 45px;
-    width: 70px;
+    height: 60px;
+    width: 90px;
 }
