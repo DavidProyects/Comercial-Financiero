@@ -7,13 +7,13 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: yellow; 
+    background-color: #002C8A; 
     justify-content: space-around;
      
 }
 .ButtonHeader {
     display: flex;
-    background-color: red;
+    background-color: #002C8A;
     margin:0 px;
 
 
