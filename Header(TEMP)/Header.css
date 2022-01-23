@@ -1,5 +1,6 @@
 .header{
     position: fixed;
+    box-shadow: 10px 5px 5px black;
 }
 .Headerbar {
     display: flex;
@@ -7,13 +8,12 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: yellow; 
+    background-color: #002C8A; 
     justify-content: space-around;
      
 }
 .ButtonHeader {
     display: flex;
-    background-color: red;
     margin:0 px;
 
 
