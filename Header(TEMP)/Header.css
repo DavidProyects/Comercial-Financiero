@@ -38,7 +38,7 @@
 /* Change the link color to #111 (black) on hover */
 .ButtonHeader a:hover {
     background-color: #002C8A;
-    color: wit;
+    color:  #FFB800;
 }
 .ButtonHeader img{
     height: 60px;
