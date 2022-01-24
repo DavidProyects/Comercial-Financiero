@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    position: fixed;
+    
+}
+.Headerbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #FFB800 ; 
+    justify-content: space-around;
+    /*box-shadow: 5px 5px 25px #000000  inset;*/
+     
+}
+.ButtonHeader {
+    display: flex;
+    margin:0 px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.ButtonHeader a {
+    display: block;
+    color: 002C8A;
+    text-align: center;
+    padding: 20px 28px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.ButtonHeader a:hover {
+    background-color: #002C8A;
+    color:  #FFB800;
+}
+.ButtonHeader img{
+    height: 60px;
+    width: 90px;
+}
+body{
+    background-image: url(../Login/Img/pexels-quintin-gellar-313782.jpg);
+}
+.textpart3{
+	text-align: justify;
+	color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.buttons1{
+	align-items: center;
+	align-items: space-evenly;
+	margin-bottom: 40px;
+}
+.button1{
+	height: 400px;
+    width: 1200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button2{
+	height: 400px;
+	width: 1200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button3{
+	height: 400px;
+	width: 1200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
