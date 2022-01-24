@@ -126,6 +126,13 @@ body{
 .login input[type=button]:focus{
 	outline: none;
 }
+
+.login a{
+	font-size: 17px;   
+    color: #FFB800;
+    text-decoration: none;
+	font-family: 'Exo', sans-serif;
+}
 .login p[type=message] {
 	font-size: 17px;
 	color: #ffffff;
@@ -134,7 +141,9 @@ body{
 ::-webkit-input-placeholder{
     color: rgba(255,255,255,0.6);
 }
-
+::-moz-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
 ::-moz-input-placeholder{
     color: rgba(255,255,255,0.6);
 }
