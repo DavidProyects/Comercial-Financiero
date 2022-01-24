@@ -1,50 +1,137 @@
+:root{    
+    --primary:#FFB800;
+    --secundary:#002C8A;
+    --background:#35495e;
+    --black-text:rgb(61, 61, 61);
+    --white-text:#ffffff;
+}
+
 *{
-    margin: 0;
     padding: 0;
-
-}
-.header{
-    position: fixed;
-    
-}
-.Headerbar {
-    
-    display: flex;
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:   #FFB800 ; 
-    justify-content: space-around;
-    /*box-shadow: 5px 5px 25px #000000  inset;*/
-     
-}
-.ButtonHeader {
-    display: flex;
-    margin:0 px;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.ButtonHeader a {
-    display: block;
-    color: 002C8A;
-    text-align: center;
-    padding: 20px 28px;
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.ButtonHeader a:hover {
-    background-color: #002C8A;
-    color:  #FFB800;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.ButtonHeader img{
-    height: 60px;
-    width: 90px;
+
+nav{
+    background-color: var(--primary);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+header h1{
+    color: var(--white-text);
+    font-size: 2rem;
+    letter-spacing: .7rem;
+}
+.headerin{
+    color: var(--white-text)
+}
+.drop-down-menu .drop-down-button{
+    font-size: 1.2rem;
+    outline: none;
+    color: var(--white-text);
+    padding: 1rem 1rem;
+    background-color: inherit;
+}
+
+
+.drop-down-menu-content{
+    display: none;
+    position: absolute;
+    background-color: var(--white-text);
+    min-width: 10rem;
+    box-shadow: 0 .8rem 1rem 0 rgba(0,0,00.2);
+    z-index: 1;
+}
+
+.drop-down-menu:hover{
+    background-color: var(--secundary);
+    color: var(--white-text);
+}
+
+.drop-down-menu-content a{
+    float: none;
+    color: var(--black-text);
+    padding: 1rem 1rem;
+    display: block;
+}
+
+.drop-down-menu-content a:hover{
+    background-color: var(--background);
+    color: var(--white-text);
+}
+
+.drop-down-menu:hover .drop-down-menu-content{
+    display: block;
+}
+
+nav ul{
+    display: flex;
+}
+
+.drawer{
+    font-size: 1rem;
+    color: var(--white-text);
+    float: left;
+    cursor: pointer;
+    display: none;
+    margin-left: 1rem;
+    border: solid .1rem var(--white-text) ;
+    padding: .2rem;
+    border-radius: .1rem;
+}
+
+#ckbox{
+    display: none;
+}
+
+/*media query*/
+
+@media (max-width:1039px) {
+    nav{
+        justify-content: flex-start;
+    }
+
+    .drawer{
+        display: block;
+    }
+
+    .drop-down-menu-content{
+        width: 100%;
+    }
+
+    nav h1{
+        margin-left: 1rem;
+    }
+
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: var(--background);
+        top: 10vh;
+        left: -100%;
+        text-align: left;
+        transition: all .5s;
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    #ckbox:checked ~ .menu-box{
+        left: 0;
+    }
+}
+
 body{
     background-image: url(../img/pexels-quintin-gellar-313782.jpg);
 }

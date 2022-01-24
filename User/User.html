@@ -8,15 +8,61 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="Header">
-        <ul class="Headerbar">
-            <li class="ButtonHeader"><a href="">Inicio</a></li>
-            <li class="ButtonHeader"><a href="">Productos</a></li>
-            <li class="ButtonHeader"><img src="../Logopng/Logo.png" alt="Logotype"></li>
-            <li class="ButtonHeader"><a href="">Nosotros</a></li>
-            <li class="ButtonHeader"><a href="">Contactanos</a></li>
-        </ul>
-    </div>
+    <header>
+        
+        <nav>
+
+            <input type="checkbox" id="ckbox">
+            <label for="ckbox" class="drawer">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+
+                <div class="drop-down-menu">
+                    <button class="drop-down-button" ><a class="headerin" href="../GoldBank/Goldbank Inicio.html">Inicio</a></button>
+                </div>
+
+                <div class="drop-down-menu">
+                    <button class="drop-down-button">Productos
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-down-menu-content">
+                        <a href="#">Cuentas de Ahorro</a>
+                        <a href="#">Tarjetas de Credito</a>
+                        <a href="#">Simulador prestamo personal</a>
+                        <a href="#">IQ Bolsa de valores</a>
+                    </div>
+                </div>
+
+                <div class="Logo">
+                    <img src="../Logopng/Logo.png" alt="Logotype" width="180px">
+                </div>
+
+                <div class="drop-down-menu">
+                    <button class="drop-down-button">Nosotros
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-down-menu-content">
+                        <a href="#">Integrantes</a>
+                        <a href="#">Proyectos</a>
+                        <a href="#">Unete a nosotros</a>
+                    </div>
+                </div>
+
+                <div class="drop-down-menu">
+                    <button class="drop-down-button">Contactanos
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-down-menu-content">
+                        <a href="#">Correo Electronico</a>
+                        <a href="#">Telefonos de Contacto</a>                        
+                        <a href="#">Chat en Linea</a>                        
+                    </div>
+                </div>
+
+
+            </ul>
+        </nav>
+    </header>
     <div class="buttons1">
         <button onclick="description1()" class="button1"></button>
         <button onclick="description2()" class="button2"></button> 
