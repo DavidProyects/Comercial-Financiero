@@ -8,6 +8,7 @@
     
 }
 .Headerbar {
+    
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -23,7 +24,7 @@
     margin:0 px;
     justify-content: center;
     align-items: center;
-
+    justify-content: space-around;
 
 }
 
@@ -45,7 +46,7 @@
     width: 90px;
 }
 body{
-    background-image: url(../Login/Img/pexels-quintin-gellar-313782.jpg);
+    background-image: url(../img/pexels-quintin-gellar-313782.jpg);
 }
 .textpart3{
 	text-align: justify;
@@ -54,6 +55,7 @@ body{
 	margin-right: 50px;
 }
 .buttons1{
+    
 	align-items: center;
 	align-items: space-evenly;
 	margin-bottom: 40px;
