@@ -4,6 +4,7 @@
     --background:#35495e;
     --black-text:rgb(61, 61, 61);
     --white-text:#ffffff;
+	scroll-behavior: smooth;
 }
 *{
     padding: 0;
