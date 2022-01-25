@@ -16,17 +16,11 @@ body{
 	bottom: -40px;
 	background-image: url(../Img/pexels-quintin-gellar-313782.jpg);
 	background-size: cover;
-	filter: brightness(-6);
+	object-fit: cover;
+	filter: brightness(-4);
+
 }
-.body:before {
-	content:'';
-	position: absolute;
-    top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
-}
+
 .grad{
 	position: absolute;
 	top: -20px;
@@ -57,20 +51,34 @@ body{
 
 .login{
 	position: absolute;
-	top: calc(50% - 75px);
+	top: calc(35% - 75px);
 	left: calc(50% - 50px);
-	height: 150px;
-	width: 350px;
+	height: 420px;
+	width: 600px;
 	padding: 10px;
-	z-index: 2;
+	z-index: 2;	
 }
-
+.body:before {
+	content:'';
+	position: inherit;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5%;
+}
 .login1{
 	display: flex;
 	margin: 50px;
 }
 .login2{
-	margin: 50px;
+	margin: 50px;	
+	justify-content: center;
+}
+.login3{
+	display: flex;
+	justify-content: center;
 }
 
 .login input[type=text]{
@@ -98,6 +106,8 @@ body{
 	font-weight: 400;
 	padding: 4px;
 	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .login input[type=button]{
