@@ -5,7 +5,6 @@
     --black-text:rgb(61, 61, 61);
     --white-text:#ffffff;
 }
-
 *{
     padding: 0;
     margin: 0;
@@ -14,11 +13,10 @@
     box-sizing: border-box;
     border: none;
 }
-
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/pexels-quintin-gellar-313782.jpg);
 }
-
 nav{
     background-color: var(--primary);
     height: 10vh;
@@ -42,8 +40,6 @@ header h1{
     padding: 1rem 1rem;
     background-color: inherit;
 }
-
-
 .drop-down-menu-content{
     display: none;
     position: absolute;
@@ -52,32 +48,26 @@ header h1{
     box-shadow: 0 .8rem 1rem 0 rgba(0,0,00.2);
     z-index: 1;
 }
-
 .drop-down-menu:hover{
     background-color: var(--secundary);
     color: var(--white-text);
 }
-
 .drop-down-menu-content a{
     float: none;
     color: var(--black-text);
     padding: 1rem 1rem;
     display: block;
 }
-
 .drop-down-menu-content a:hover{
     background-color: var(--background);
     color: var(--white-text);
 }
-
 .drop-down-menu:hover .drop-down-menu-content{
     display: block;
 }
-
 nav ul{
     display: flex;
 }
-
 .drawer{
     font-size: 1rem;
     color: var(--white-text);
@@ -89,13 +79,9 @@ nav ul{
     padding: .2rem;
     border-radius: .1rem;
 }
-
 #ckbox{
     display: none;
 }
-
-/*media query*/
-
 @media (max-width:1039px) {
     nav{
         justify-content: flex-start;
@@ -130,10 +116,6 @@ nav ul{
     #ckbox:checked ~ .menu-box{
         left: 0;
     }
-}
-
-body{
-    background-image: url(../img/pexels-quintin-gellar-313782.jpg);
 }
 .textpart3{
 	text-align: justify;
