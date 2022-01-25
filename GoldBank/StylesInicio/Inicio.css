@@ -46,6 +46,7 @@ header h1{
     color: var(--white-text);
     padding: 1rem 1rem;
     background-color: inherit;
+	
 }
 .drop-down-menu-content{
     display: none;
