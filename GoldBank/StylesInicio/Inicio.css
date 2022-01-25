@@ -15,7 +15,7 @@
     border: none;
 }
 body{
-    font-family: sans-serif, Arial, Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 	background-image: url(../img/pexels-quintin-gellar-313782.jpg);
 	margin: 0;
 	padding: 0;	
@@ -27,6 +27,9 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+header{
+	position: Fixed;
 }
 header h1{
     color: var(--white-text);
