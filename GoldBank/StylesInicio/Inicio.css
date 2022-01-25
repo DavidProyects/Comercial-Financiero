@@ -54,6 +54,7 @@ header h1{
 .drop-down-menu:hover{
     background-color: var(--secundary);
     color: var(--white-text);
+	border-radius: 10px;
 }
 .drop-down-menu-content a{
     float: none;
