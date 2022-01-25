@@ -50,7 +50,7 @@ body{
 
 .login{
 	position: absolute;
-	top: calc(35% - 75px);
+	top: calc(25% - 75px);
 	left: calc(50% - 50px);
 	height: 420px;
 	width: 600px;
@@ -60,12 +60,12 @@ body{
 .body:before {
 	content:'';
 	position: absolute;
-	top: calc(35% - 75px);
+	top: calc(27% - 75px);
 	left: calc(50% - 50px);
 	height: 420px;
 	width: 575px;
 	padding: 10px;
- 	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0,0,0,0.6);
 	border-radius: 5%;
 }
 .login1{
