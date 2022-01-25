@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +8,15 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Gold Bank</title>
 </head>
-
 <body>
 	<header>
+        
+        <nav>
 
-		<nav>
+            <input type="checkbox" id="ckbox">
+            <label for="ckbox" class="drawer">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
 
 				<div class="drop-down-menu">
 					<button class="drop-down-button">Contactanos
@@ -26,17 +29,33 @@
 					</div>
 				</div>
 
-			<div class="drop-down-menu">
-				<button class="drop-down-button"><a class="headerin" href="../Login GB/Login.html">Login</a></button>
-			</div>
+                <div class="drop-down-menu">
+                    <button class="drop-down-button"><a class="headerin" href="#sectionservices">Productos</a>	
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-down-menu-content">
+                        <a href="#">Cuentas De Ahorro</a>
+                        <a href="#">Tarjetas De Credito</a>
+                        <a href="#">Simulador Prestamo Personal</a>
+                        <a href="#">IQ Bolsa De Valores</a>
+						<a href="#">Pagos PSE</a>
+                    </div>
+                </div>
 
                 <div class="Logo">
                     <div><a title="Gold Bank" href="../GoldBank/Goldbank Inicio.html"><img src="../Logopng/Logo.png" alt="Logo" width="180px"></a></span></div>
                 </div>
 
-			<div class="Logo">
-				<img src="../Logopng/Logo.png" alt="Logotype" width="180px">
-			</div>
+                <div class="drop-down-menu">
+                    <button class="drop-down-button"><a class="headerin" href="#sectionhistory">Nosotros</a>	
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="drop-down-menu-content">
+                        <a href="#">Integrantes</a>
+                        <a href="#">Proyectos</a>
+                        <a href="#">Trabaja Con Nosotros</a>
+                    </div>
+                </div>
 
                 <div class="drop-down-menu">
                     <button class="drop-down-button" ><a class="headerin" href="../Login GB/Login.html">Login</a></button>
@@ -79,130 +98,83 @@
 				</li>
 			
 			</ul>
-		</nav>
-	</header>
-	<section id="sectionbanner">
-
-		<div>
-			<article>
-
-				<ul class="slider">
-					<li>
-						<input type="radio" id="sbutton1" name="click">
-						<label for="sbutton1"></label>
-						<img src="./FodosInicio/video.gif" alt="Inicio">
-					</li>
-					<li>
-						<input type="radio" id="sbutton2" name="click" checked>
-						<label for="sbutton2"></label>
-						<img src="FodosInicio/pexels-dominika-roseclay-905163.jpg" alt="">
-					</li>
-
-					<li>
-						<input type="radio" id="sbutton3" name="click">
-						<label for="sbutton3"></label>
-						<img src="FodosInicio/pexels-kaboompics-com-6229.jpg" alt="">
-					</li>
-					<li>
-						<input type="radio" id="sbutton4" name="click">
-						<label for="sbutton4"></label>
-						<img src="FodosInicio/pexels-pixabay-265087.jpg" alt="">
-					</li>
-					<li>
-						<input type="radio" id="sbutton5" name="click">
-						<label for="sbutton5"></label>
-						<img src="FodosInicio/pexels-timur-saglambilek-185576.jpg" alt="">
-					</li>
-
-				</ul>
-
+			
 			</article>
+	  </div>
+			
+  	
+  	</section>
+  
+  	<section id="sectionservices">
+  	
+		<div><img src="iconos/tarjetab.png" alt="" class="icon"><p><strong>Tarjeta de crédito</strong></p></div>
+		<div><img src="iconos/ahorros-b.png" alt=""class="icon"><p><strong>Cuenta de ahorros </strong></p></div>
+		<div><img src="iconos/simulador-b.png" alt=""class="icon"><p><strong>Simulador de crédito</strong></p></div>
+		<div><img src="iconos/bolsa-b.png" alt=""class="icon"><p><strong>Bolsa de valores</strong></p></div>
+  	
+  	
+  	
+  	</section>
+  
+  	<section id="sectionhistory">
+		
+  		<div><h1>Nosotros</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nulla corporis enim repellendus illum, ab, dicta soluta beatae ipsa nihil? Ipsam harum, et voluptas perferendis accusantium impedit aliquid ipsum quia.</p></div>
+  	
+		<ul>
+			<li><img src="iconos/julian.png" alt=""><p>Julian Hernadez</p></li>
+			<li><img src="iconos/cristian.png" alt=""><p>Cristian Ortiz</p></li>
+			<li><img src="iconos/luisa.png" alt=""><p>Luisa Arroyave</p></li>
+			<li><img src="iconos/jean.png" alt=""><p>Jean Quitian</p></li>
+			<li><img src="iconos/david.png" alt=""><p>David Lopez</p></li>
+			
+		</ul>
+  	
+  	
+  	</section>
+  
+  	<section id="sectioncontact">
+  	
+		<div class="channels"><h1>Nuestros Canales</h1>
+		
+			<ul>
+				<li><img src="" alt=""></li>
+				<li><img src="" alt=""></li>
+				<li><img src="" alt=""></li>
+				<li><img src="" alt=""></li>
+			</ul>
+		
 		</div>
+  	
+  	<div class="lines">
 
-
-	</section>
-
-	<section id="sectionservices">
-
-		<div><img src="iconos/tarjetab.png" alt="" class="icon">
-			<p><strong>Tarjeta de crédito</strong></p>
-		</div>
-		<div><img src="iconos/ahorros-b.png" alt="" class="icon">
-			<p><strong>Cuenta de ahorros </strong></p>
-		</div>
-		<div><img src="iconos/simulador-b.png" alt="" class="icon">
-			<p><strong>Simulador de crédito</strong></p>
-		</div>
-		<div><img src="iconos/bolsa-b.png" alt="" class="icon">
-			<p><strong>Bolsa de valores</strong></p>
-		</div>
-
-
-
-	</section>
-
-	<section id="sectionhistory">
-
-		<div>
-			<h1>Nosotros</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nulla corporis enim repellendus
-				illum, ab, dicta soluta beatae ipsa nihil? Ipsam harum, et voluptas perferendis accusantium impedit
-				aliquid ipsum quia.</p>
-		</div>
+		<h1>Contactanos</h1>
 
 		<ul>
-			<li><img src="iconos/julian.png" alt="">
-				<p>Julian Hernadez</p>
-			</li>
-			<li><img src="iconos/cristian.png" alt="">
-				<p>Cristian Ortiz</p>
-			</li>
-			<li><img src="iconos/luisa.png" alt="">
-				<p>Luisa Arroyave</p>
-			</li>
-			<li><img src="iconos/jean.png" alt="">
-				<p>Jean Quitian</p>
-			</li>
-			<li><img src="iconos/david.png" alt="">
-				<p>David Lopez</p>
-			</li>
-
+			<li><img src="" alt="">:60 1 3886887</li>
+			<li><img src="" alt="">:01 8000 23434</li>
+			<li><img src="" alt="">:golbank@</li>
+			<li><img src="" alt="">:direccion</li>
 		</ul>
 
-
-	</section>
-
-	<section id="sectioncontact">
-
-		<div class="channels">
-			<h1>Nuestros Canales</h1>
-
-			<ul>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-				<li><img src="" alt=""></li>
-			</ul>
-
-		</div>
-
-		<div class="lines">
-
-			<h1>Contactanos</h1>
-
-			<ul>
-				<li><img src="" alt="">:60 1 3886887</li>
-				<li><img src="" alt="">:01 8000 23434</li>
-				<li><img src="" alt="">:golbank@</li>
-				<li><img src="" alt="">:direccion</li>
-			</ul>
-
-		</div>
-
-		<div class="map"></div>
-
-	</section>
-
+  	</div>
+  	
+  	<div class="map"></div>
+	
+  	</section>  
+	  
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
