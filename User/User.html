@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Style/UserStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Raleway:ital,wght@0,300;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -64,13 +65,24 @@
             </ul>
         </nav>
     </header>
-    <a href="javascrip:abrir()">Click aqui</a>    
-    <div class="Ventana" id="vent"> 
-        <img src="./img/Grafica-TC.jpg" alt="">
-        <h5>Aqui podra ver representados los Gastos, Pagos y Intereses que ha tenido en los ultimos 3 meses y una proyeccion para el mes que veine</h5>
-        <a href="javascrip:close()">Cerrar</a>
+    <section>
+        <div class="contenedor-textos">
+            <div class="text_hero"><br><h2>Aqui podra ver representados los gastos e intereses que ha tenido en los ùltimos 3 meses y una proyecciòn para el mes siguiente.</h2><br>
+            <a href="#" class="cta">Ahorros</a></div>
+        </div>
+
+        <img src="arrow.svg" alt="">
+
+    </section>
+
+    <div class="ahorros-container">
+        <div class="ahorros ahorros-close">
+            <p class="close">X</p>
+            <img src="img/Grafica-CH.jpg" alt="">
+            <div class="ahorros-textos">
+            </div>
+        </div>
     </div>
-        
 </body>
 <script src="./Scrip/User.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
