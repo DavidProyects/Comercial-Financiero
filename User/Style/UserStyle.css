@@ -13,10 +13,7 @@
     box-sizing: border-box;
     border: none;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../img/pexels-quintin-gellar-313782.jpg);
-}
+
 nav{
     background-color: var(--primary);
     height: 10vh;
@@ -117,33 +114,24 @@ nav ul{
         left: 0;
     }
 }
-.textpart3{
-	text-align: justify;
-	color: white;
-	margin-left: 50px;
-	margin-right: 50px;
+
+.Ventana {
+    position: absolute;
+    background:rgba(0, 0, 0, 0.26);
+    width: 30%;
+    color: rgba(0, 0, 0, 0.123);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    height: 450px;
+    width: 800px;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(30% - 75px);
+	left: calc(21% - 50px);
+    display: block;
 }
-.buttons1{
-    
-	align-items: center;
-	align-items: space-evenly;
-	margin-bottom: 40px;
-}
-.button1{
-	height: 400px;
-    width: 1200px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.button2{
-	height: 400px;
-	width: 1200px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.button3{
-	height: 400px;
-	width: 1200px;
-	margin-left: 20px;
-	margin-right: 20px;
+.Ventana h5{
+    color: white;
 }
